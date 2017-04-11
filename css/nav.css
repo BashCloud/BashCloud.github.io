@@ -121,7 +121,7 @@ Stretchy Nav style - common to:
 .cd-stretchy-nav ul {
   position: relative;
   z-index: 2;
-  padding: 60px 0 0;
+  padding: 50px 0 10px;
   visibility: hidden;
   -webkit-transition: visibility 0.3s;
   -moz-transition: visibility 0.3s;
@@ -161,7 +161,7 @@ Stretchy Nav style - common to:
   content: '';
   position: absolute;
   width: 3px;
-  height: 16px;
+  height: 25px;
   top: 50%;
   right: 60px;
   -webkit-transform: translateX(3px) translateY(-50%) scaleY(0);
@@ -215,13 +215,13 @@ Stretchy Nav style - common to:
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-.cd-stretchy-nav.nav-is-visible ul a.active {
+.cd-stretchy-nav.nav-is-visible ul a:hover {
   color: #ffffff;
 }
-.cd-stretchy-nav.nav-is-visible ul a.active::after {
+.cd-stretchy-nav.nav-is-visible ul a:hover::after {
   opacity: 1;
 }
-.cd-stretchy-nav.nav-is-visible ul a.active::before {
+.cd-stretchy-nav.nav-is-visible ul a:hover::before {
   -webkit-transform: translateX(3px) translateY(-50%) scaleY(1);
   -moz-transform: translateX(3px) translateY(-50%) scaleY(1);
   -ms-transform: translateX(3px) translateY(-50%) scaleY(1);
