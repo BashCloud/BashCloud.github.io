@@ -55,14 +55,20 @@ img {
     font-size: 14px;
     color: #555577;
 }
+.myBio .myInfo{
+    display: inline;
+}
+.myBio .myInfo:hover{
+    color: #577;
+}
 .myLinks i{
-    color: #555577;
+    color: #999;
     cursor: pointer;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
 }
 .myLinks i:hover{
-    color: #00c7c7;
+    color: #9acd91;
     transform: scale(1.5);
 }
 .myLinks li{
